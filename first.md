@@ -165,6 +165,7 @@ rm -i file            # ask before removing (interactive)
 ```
 rm -rf <path>
 ```
+
 ![alt text](<rm and rf.png>)
 
 
