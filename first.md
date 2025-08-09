@@ -12,7 +12,7 @@
 ```
 ls [options] [path]
 ```
-![alt text](ls.png)
+![alt text](screenshots/ls.png)
 
 
 **Examples:**
@@ -36,7 +36,7 @@ ls -la /home/user # combination, on a specific path
 mkdir [options] <directory-name>
 ```
 
-![alt text](mkdir.png)
+![alt text](screenshots/mkdir.png)
 
 
 **Examples:**
@@ -87,7 +87,7 @@ touch file1 file2     # create multiple files at once
 ```
 
 ---
-![alt text](<cd touch.png>)
+![alt text](<screenshots/cd touch.png>)
 
 
 
@@ -129,7 +129,7 @@ cp -r dir1 dir2                # copy directory recursively
 ```
 
 ---
-![alt text](<cd.. to cp .png>)
+![alt text](<screenshots/cd.. to cp .png>)
 
 
 
@@ -166,7 +166,7 @@ rm -i file            # ask before removing (interactive)
 rm -rf <path>
 ```
 
-![alt text](<rm and rf.png>)
+![alt text](<screenshots/rm and rf.png>)
 
 
 
