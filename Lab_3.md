@@ -19,7 +19,7 @@
 📌 Output of ls:
 
 ```
-  Desktop  Documents  Downloads  Music  Pictures  projects  Public  snap  Templates  Videos/
+clanguage.c  claungaunge.txt  Desktop  Documents  Downloads  Music  Pictures  projects  Public  snap  Templates  Videos
 ```
 
 ### ls flags
