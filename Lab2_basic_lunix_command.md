@@ -1,4 +1,4 @@
-# Linux Terminal Commands — 
+#Basic Linux Commands — 
 
 
 
