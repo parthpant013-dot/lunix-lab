@@ -1,5 +1,5 @@
 # Basic linux commands
 
-...bash
->> pwd
-...
+```bash
+pwd
+```
