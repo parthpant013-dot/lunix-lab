@@ -8,7 +8,7 @@
 📌 Output example:
 
 ```
-/c/Linux_Lab
+/home/parth
 ```
 ## ls command
 
