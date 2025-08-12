@@ -67,5 +67,7 @@ drwxr-xr-x  2 parth parth 4096 Aug  6 22:18 Templates
 drwxr-xr-x  2 parth parth 4096 Aug  6 22:18 Videos
 
 ```
+## Image Screen Shot
 
+![alt text](image/pwdtolsla.png)
 
