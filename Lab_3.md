@@ -1,1 +1,1 @@
-#Basic linuc commands
+# Basic linux commands
