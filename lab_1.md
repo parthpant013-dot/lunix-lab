@@ -117,5 +117,21 @@ To enable:
 
 ---
 
-  
+  # Extra Questions:
+
+
+## 1. What are two advantages of installing Ubuntu in VirtualBox?
+
+**Answer:**
+- You can run Ubuntu alongside your existing operating system without restarting your computer.  
+- It provides a safe testing environment where you can experiment without risking your main OS.  
+
+---
+
+## 2. What are two advantages of dual booting instead of using a VM?
+
+**Answer:**
+- Ubuntu will have direct access to your system hardware, which gives better performance compared to a virtual machine.  
+- You can fully utilize system resources (RAM, CPU, GPU) without sharing them with another OS.  
+
 
