@@ -25,12 +25,16 @@ Before starting, make sure you have:
    - **Version**: Ubuntu (64-bit)  
 5. Click **Next**
 
+
+![alt text](image/1install.png)
 ---
 
 ## 💾 Step 2: Allocate Memory
 
 - Recommended: **4 GB (4096 MB)**  
 - Minimum: **2 GB (2048 MB)**  
+
+![alt text](image/2memory.png)
 
 ---
 
@@ -43,6 +47,9 @@ Before starting, make sure you have:
 5. Click **Create**
 
 ---
+![alt text](image/3alooot.png)
+
+
 
 ## 📂 Step 4: Mount the Ubuntu ISO
 
@@ -53,6 +60,10 @@ Before starting, make sure you have:
 5. Click **OK**
 
 ---
+![alt text](image/summary.png)
+
+![alt text](image/attached.png)
+
 
 ## ▶️ Step 5: Start the VM & Install Ubuntu
 
@@ -67,6 +78,10 @@ Before starting, make sure you have:
 
 ---
 
+![alt text](image/installubu.png)
+
+
+
 ## 🌍 Step 6: Configure User Settings
 
 - Enter your **Name, Username, and Password**  
@@ -74,6 +89,10 @@ Before starting, make sure you have:
 - Once done, restart the VM  
 
 ---
+![alt text](image/ubuinst.png)
+
+![alt text](image/readytouse.png)
+
 
 ## ✅ Step 7: Done!
 
@@ -81,6 +100,9 @@ You now have **Ubuntu running inside VirtualBox** 🎉
 You can log in with the credentials you set during installation.
 
 ---
+
+![alt text](image/doneyaa.png)
+
 
 ## 🖼️ (Optional) Add Guest Additions
 
