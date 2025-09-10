@@ -1,3 +1,5 @@
+# Lab 5 – Starter Kit & Automation
+
 ### Code
 ```bash
 
@@ -116,8 +118,11 @@ echo "streamlit run $APP_FILE"
 ```
 
 ![alt text](shell_script_image/bash1.png)
+
 ![alt text](shell_script_image/bash2.png)
+
 ![alt text](shell_script_image/bash3.png)
+
 ![alt text](shell_script_image/bash4.png)
 
 
@@ -125,3 +130,42 @@ echo "streamlit run $APP_FILE"
 
 ![alt text](shell_script_image/streamlitrun.png)
 
+
+
+# Extra Questions
+
+## What does `mkdir -p` do?
+
+- The `mkdir` command is used to create directories.  
+- The `-p` option tells `mkdir` to:
+  1. **Create parent directories** if they do not exist.  
+  2. **Ignore error** if the directory already exists.  
+
+Example:  
+```bash
+mkdir -p dir1/dir2/dir3
+
+```
+This will create dir1, dir1/dir2, and dir1/dir2/dir3 in one command.
+
+
+
+## Why is automation useful in DevOps?
+
+- **` Automation is a core principle of DevOps because it:`**
+
+    - **` Reduces manual effort and human error.`**
+
+    - **` Speeds up software delivery (CI/CD pipelines).`**
+
+    - **` Ensures consistency across environments (development, testing, production).`**
+
+    - **` Improves scalability and reliability.`**
+
+- **` Example areas of automation in DevOps:`**
+
+    - **` Code integration and testing (CI).`**
+
+    - **` Deployment and configuration management (CD).`**
+
+    - **` Monitoring and alerting.`**
