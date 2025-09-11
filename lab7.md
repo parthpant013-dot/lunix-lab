@@ -81,6 +81,16 @@ Output:
 ![alt text](image7/armout.png)
 
 ---
+## TABLE -
+
+- When number is 153
+
+| step | temp | digit(d) | d^digit | sum | new temp |
+| --- | --- | --- | --- | --- | --- |
+| 1   | 153 | 3   | 27  | 27  | 15  |
+| 2   | 15  | 5   | 125 | 152 | 1   |
+| 3   | 1   | 1   | 1   | 1   | 0   |
+
 
 
 # Prime Number Checker (Bash Script)
@@ -218,3 +228,134 @@ Sum of digits: 10
 ![alt text](image7/sumdigout.png)
 
 ---
+
+
+# Palindrome Number Script
+
+## 📌 Description
+
+This Bash script checks whether a given **non-negative integer** is a  
+palindrome.  
+A palindrome number is the same when read forwards or backwards (e.g.,  
+`1221`, `121`, `5`).
+
+* * *
+
+## ✅ Explanation
+
+- `$#` → checks the number of arguments passed.\\
+- `[[ $n =~ ^[0-9]+$ ]]` → ensures the input is a non-negative  
+    integer.\\
+- `rev=$(( rev * 10 + (n % 10) ))` → builds the reverse number digit  
+    by digit.\\
+- At the end, compares original (`orig`) and reversed (`rev`).
+
+If they are equal → it's a palindrome, otherwise not.
+
+* * *
+
+&nbsp;
+
+## 📜 Code
+
+```bash
+#!/bin/bash
+
+
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 <non-negative-integer>"
+  exit 1
+fi
+n="$1"
+if ! [[ $n =~ ^[0-9]+$ ]]; then
+  echo "Must be a non-negative integer."
+  exit 1
+fi
+
+orig="$n"
+rev=0
+while [ "$n" -gt 0 ]; do
+  rev=$(( rev * 10 + (n % 10) ))
+  n=$(( n / 10 ))
+done
+
+[ "$orig" -eq "$rev" ] && echo "$orig is a palindrome." || echo "$orig is NOT a palindrome."
+```
+
+![alt text](image7/palindronsh.png)
+
+
+* * *
+
+## ▶️ Usage
+
+1.  Make the script executable:
+    
+    ```bash
+    chmod +x palindrome_num.sh
+    ```
+    
+2.  Run with a number:
+    
+    ```bash
+    ./palindrome_num.sh <number>
+    ```
+    
+
+* * *
+
+## 🖥️ Examples
+
+### Example 1: Palindrome
+
+```bash
+./palindrome_num.sh 1221
+```
+
+**Output:**
+
+```
+1221 is a palindrome.
+```
+
+### Example 2: Not a Palindrome
+
+```bash
+./palindrome_num.sh 1234
+```
+
+**Output:**
+
+```
+1234 is NOT a palindrome.
+```
+
+### Example 3: Invalid Input
+
+```bash
+./palindrome_num.sh abc
+```
+
+**Output:**
+
+```
+Must be a non-negative integer.
+```
+
+![alt text](image7/outputpalin.png)
+
+
+* * *
+
+&nbsp;
+
+## TABLE -
+
+- When number is 1221
+
+| STEP | `n` (before loop) | `n % 10` (last digit) | rev = rev \* 10 + (n % 10) | New `rev` | New `n` (n/10) |
+| --- | --- | --- | --- | --- | --- |
+| 1   | 1221 | 1   | `0 * 10 + 1` | 1   | 122 |
+| 2   | 122 | 2   | `1 * 10 + 2` | 12  | 12  |
+| 3   | 12  | 2   | `12 * 10 + 2` | 122 | 1   |
+| 4   | 1   | 1   | `122 * 10 + 1` | 1221 | 0   |
